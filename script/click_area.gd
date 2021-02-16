@@ -1,9 +1,10 @@
 extends Node2D
-
+export var group_name = ""
 
 signal clicked
 
 func _ready():
+	add_to_group(group_name)
 	pass # Replace with function body.
 
 
